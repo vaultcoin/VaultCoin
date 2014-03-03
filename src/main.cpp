@@ -2933,7 +2933,7 @@ bool InitBlockIndex() {
         {
 
             block.nNonce = 849227;
-            block.nTime = 1392212666;
+            block.nTime = 1393866699;
         }
 
         //// debug print
