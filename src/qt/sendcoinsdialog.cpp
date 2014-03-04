@@ -32,7 +32,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 #endif
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a The Panda Coin address (e.g. VdNiYrYaCaXt8pVy2ygSeDaXXedz26jr15)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Vaultcoin address (e.g. VdNiYrYaCaXt8pVy2ygSeDaXXedz26jr15)"));
 #endif
 
     addEntry();
@@ -479,7 +479,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid The Panda Coin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Vaultcoin address"));
         }
         else
         {

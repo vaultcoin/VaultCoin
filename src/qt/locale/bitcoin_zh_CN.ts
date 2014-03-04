@@ -248,7 +248,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
         <translation>警告：如果您加密了您的钱包，但是忘记了密码，你将会&lt;b&gt;丢失所有的莱特币&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -1221,7 +1221,7 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Show the Vaultcoin-Qt help message to get a list with possible Vaultcoin command-line options.</source>
-        <translation>显示ThePandacoin命令行选项帮助信息</translation>
+        <translation>显示Vaultcoin命令行选项帮助信息</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2640,7 +2640,7 @@ rpcpassword=%s
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Vaultcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL选项：(参见ThePandacoin Wiki关于SSL设置栏目)</translation>
+        <translation>SSL选项：(参见Vaultcoin Wiki关于SSL设置栏目)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2840,12 +2840,12 @@ rpcpassword=%s
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Vaultcoin</source>
-        <translation>wallet.dat钱包文件加载错误：请升级到最新ThePandacoin客户端</translation>
+        <translation>wallet.dat钱包文件加载错误：请升级到最新Vaultcoin客户端</translation>
     </message>
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Vaultcoin to complete</source>
-        <translation>钱包文件需要重写：请退出并重新启动ThePandacoin客户端</translation>
+        <translation>钱包文件需要重写：请退出并重新启动Vaultcoin客户端</translation>
     </message>
     <message>
         <location line="-95"/>

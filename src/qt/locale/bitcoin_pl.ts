@@ -248,8 +248,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE PANDACOIN&apos;Y&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
+        <translation>Uwaga: Jeśli zaszyfrujesz swój portfel i zgubisz hasło to &lt;b&gt;STRACISZ WSZYSTKIE SWOJE VAULTCOIN&apos;Y&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -2822,7 +2822,7 @@ na przykład: alertnotify=echo %%s | mail -s &quot;Alarm Vaultcoin&quot; admin@f
     <message>
         <location line="+93"/>
         <source>Wallet needed to be rewritten: restart Vaultcoin to complete</source>
-        <translation>Portfel wymaga przepisania: zrestartuj ThePandacoina żeby ukończyć</translation>
+        <translation>Portfel wymaga przepisania: zrestartuj Vaultcoina żeby ukończyć</translation>
     </message>
     <message>
         <location line="-95"/>

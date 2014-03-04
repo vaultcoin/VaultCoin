@@ -24,7 +24,7 @@
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.vaultcoin.ThePandacoinPayment</string>
+            <string>org.vaultcoin.VaultcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
               <string>vaultcoin</string>

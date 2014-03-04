@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Vaultcoin</source>
-        <translation>A ThePandacoinról</translation>
+        <translation>A Vaultcoinról</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -247,8 +247,8 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES PANDACOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
+        <translation>Figyelem: Ha kódolod a tárcát, és elveszíted a jelszavad, akkor &lt;b&gt;AZ ÖSSZES VAULTCOINODAT IS EL FOGOD VESZÍTENI!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -374,7 +374,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+4"/>
         <source>Show information about Vaultcoin</source>
-        <translation>Információk a ThePandacoinról</translation>
+        <translation>Információk a Vaultcoinról</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -480,7 +480,7 @@ Ez a termék az OpenSSL Project által lett kifejlesztve az OpenSSL Toolkit (htt
     <message>
         <location line="+22"/>
         <source>&amp;About Vaultcoin</source>
-        <translation>&amp;A ThePandacoinról</translation>
+        <translation>&amp;A Vaultcoinról</translation>
     </message>
     <message>
         <location line="+9"/>

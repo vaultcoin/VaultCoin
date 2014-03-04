@@ -68,7 +68,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
         <source>These are your Vaultcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw ThePandacoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <translation>Dit zijn uw Vaultcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -83,7 +83,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Vaultcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ThePandacoinadres bezit</translation>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Vaultcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -108,7 +108,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-44"/>
         <source>Verify a message to ensure it was signed with a specified Vaultcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ThePandacoinadres het bericht heeft ondertekend.</translation>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Vaultcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -123,7 +123,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
         <source>These are your Vaultcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw ThePandacoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw vaultcoins verzendt.</translation>
+        <translation>Dit zijn uw Vaultcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw vaultcoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW PANDACOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW VAULTCOINS VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -420,7 +420,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-347"/>
         <source>Send coins to a Vaultcoin address</source>
-        <translation>Verstuur munten naar een ThePandacoinadres</translation>
+        <translation>Verstuur munten naar een Vaultcoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -501,12 +501,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+7"/>
         <source>Sign messages with your Vaultcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw ThePandacoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <translation>Onderteken berichten met uw Vaultcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Vaultcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde ThePandacoinadressen</translation>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Vaultcoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -542,7 +542,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message numerus="yes">
         <location line="+141"/>
         <source>%n active connection(s) to Vaultcoin network</source>
-        <translation><numerusform>%n actieve connectie naar ThePandacoinnetwerk</numerusform><numerusform>%n actieve connecties naar ThePandacoinnetwerk</numerusform></translation>
+        <translation><numerusform>%n actieve connectie naar Vaultcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Vaultcoinnetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het ThePandacoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Vaultcoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -657,7 +657,7 @@ Adres: %4
         <location line="-23"/>
         <location line="+23"/>
         <source>URI can not be parsed! This can be caused by an invalid Vaultcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig ThePandacoinadres of misvormde URI-parameters.</translation>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Vaultcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -738,7 +738,7 @@ Adres: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Vaultcoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig ThePandacoinadres</translation>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Vaultcoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -945,7 +945,7 @@ Adres: %4
     <message>
         <location line="+9"/>
         <source>Whether to show Vaultcoin addresses in the transaction list or not.</source>
-        <translation>Of ThePandacoinadressen getoond worden in de transactielijst</translation>
+        <translation>Of Vaultcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1016,7 +1016,7 @@ Adres: %4
         <location line="+50"/>
         <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Vaultcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het ThePandacoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Vaultcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1220,7 +1220,7 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Show the Vaultcoin-Qt help message to get a list with possible Vaultcoin command-line options.</source>
-        <translation>Toon het ThePandacoinQt-hulpbericht voor een lijst met mogelijke Vaultcoin commandoregel-opties.</translation>
+        <translation>Toon het VaultcoinQt-hulpbericht voor een lijst met mogelijke Vaultcoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1255,7 +1255,7 @@ Adres: %4
     <message>
         <location line="+7"/>
         <source>Open the Vaultcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het ThePandacoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <translation>Open het Vaultcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1449,7 +1449,7 @@ Adres: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Vaultcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Vul een ThePandacoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Vul een Vaultcoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1514,7 +1514,7 @@ Adres: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Vaultcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald ThePandacoinadres bezit</translation>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Vaultcoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1550,7 +1550,7 @@ Adres: %4
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Vaultcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde ThePandacoinadres het bericht heeft ondertekend.</translation>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Vaultcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1566,7 +1566,7 @@ Adres: %4
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Vaultcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Vul een ThePandacoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <translation>Vul een Vaultcoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2188,7 +2188,7 @@ Adres: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Vaultcoin version</source>
-        <translation>ThePandacoinversie</translation>
+        <translation>Vaultcoinversie</translation>
     </message>
     <message>
         <location line="+102"/>

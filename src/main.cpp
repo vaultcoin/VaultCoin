@@ -2885,7 +2885,7 @@ bool LoadBlockIndex()
         pchMessageStart[1] = 'l';
         pchMessageStart[2] = 't';
         pchMessageStart[3] = 'c';
-        hashGenesisBlock = uint256("0xb71759a6dc0501bb0b04f3655d86bcd1bd2f188e9f044410f941c8ad71cc8e1a");
+        hashGenesisBlock = uint256("0x"); //replaced b71759a6dc0501bb0b04f3655d86bcd1bd2f188e9f044410f941c8ad71cc8e1a with NULL
     }
 
     //
@@ -2912,7 +2912,7 @@ bool InitBlockIndex() {
     if (!fReindex) {
 
         // Genesis block
-        const char* pszTimestamp = "This is The Panda Coin. 02/14/14 Wolly and Molly";
+        const char* pszTimestamp = "03/03/2014 - Vaultcoin is here... Please let me start this anarchy ;) - R3H4Bit ";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2926,14 +2926,14 @@ bool InitBlockIndex() {
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce = 213380;
-        block.nTime = 1392212777;
+        block.nNonce = 0; //replaced 213380 with 0
+        block.nTime = 0; //replaced 1392212777 with 0
         
         if (fTestNet)
         {
 
-            block.nNonce = 849227;
-            block.nTime = 1393866699;
+            block.nNonce = 0; //replaced 849227 with 0
+            block.nTime = 0; //replaced 1393866699 with 0
         }
 
         //// debug print
@@ -2941,7 +2941,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x29630e159ac0c54a691d63d715662f7235e3bd3b13fda78413593416efaf9d73"));
+        assert(block.hashMerkleRoot == uint256("0x")); //replaced 29630e159ac0c54a691d63d715662f7235e3bd3b13fda78413593416efaf9d73 with NULL
         
         // If genesis block hash does not match, then generate new genesis hash.
         if (false && block.GetHash() != hashGenesisBlock)
@@ -4292,7 +4292,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// ThepandacoinMiner
+// VaultcoinMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4705,7 +4705,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("ThepandacoinMiner:\n");
+    printf("VaultcoinMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4714,7 +4714,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("ThepandacoinMiner : generated block is stale");
+            return error("VaultcoinMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4728,15 +4728,15 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("ThepandacoinMiner : ProcessBlock, block not accepted");
+            return error("VaultcoinMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static ThepandacoinMiner(CWallet *pwallet)
+void static VaultcoinMiner(CWallet *pwallet)
 {
-    printf("ThepandacoinMiner started\n");
+    printf("VaultcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("vaultcoin-miner");
 
@@ -4760,7 +4760,7 @@ void static ThepandacoinMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running ThepandacoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running VaultcoinMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4871,7 +4871,7 @@ void static ThepandacoinMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("ThepandacoinMiner terminated\n");
+        printf("VaultcoinMiner terminated\n");
         throw;
     }
 }
@@ -4896,7 +4896,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&ThepandacoinMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&VaultcoinMiner, pwallet));
 }
 
 // Amount compression:

@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("PANDA");
-    case mBTC: return QString("mPANDA");
-    case uBTC: return QString::fromUtf8("μPANDA");
+    case BTC: return QString("VAC");
+    case mBTC: return QString("mVAC");
+    case uBTC: return QString::fromUtf8("μVAC");
     default: return QString("???");
     }
 }
@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("PANDAs");
-    case mBTC: return QString("Milli-PANDAs (1 / 1,000)");
-    case uBTC: return QString("Micro-PANDAs (1 / 1,000,000)");
+    case BTC: return QString("VACs");
+    case mBTC: return QString("Milli-VACs (1 / 1,000)");
+    case uBTC: return QString("Micro-VACs (1 / 1,000,000)");
     default: return QString("???");
     }
 }

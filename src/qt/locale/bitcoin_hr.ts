@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE PANDACOINSE!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate vaš novčanik i izgubite lozinku, &lt;b&gt;IZGUBIT ĆETE SVE SVOJE VAULTCOINSE!&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -370,7 +370,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+4"/>
         <source>Show information about Vaultcoin</source>
-        <translation>Prikaži informacije o ThePandacoinu</translation>
+        <translation>Prikaži informacije o Vaultcoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -476,7 +476,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About Vaultcoin</source>
-        <translation>&amp;O ThePandacoinu</translation>
+        <translation>&amp;O Vaultcoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2803,7 +2803,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Vaultcoin Alert&quot; admin@fo
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Vaultcoin</source>
-        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju ThePandacoina</translation>
+        <translation>Greška kod učitavanja wallet.dat: Novčanik zahtjeva noviju verziju Vaultcoina</translation>
     </message>
     <message>
         <location line="+93"/>

@@ -5,7 +5,7 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Vaultcoin</source>
-        <translation>Tietoa ThePandacoinista</translation>
+        <translation>Tietoa Vaultcoinista</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -249,8 +249,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PANDACOINS&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI PANDACOINISI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR VAULTCOINS&lt;/b&gt;!</source>
+        <translation>Varoitus: Jos salaat lompakkosi ja menetät tunnuslauseesi, &lt;b&gt;MENETÄT KAIKKI VAULTCOINISI&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -361,7 +361,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Näytä ThePandacoinien vastaanottamiseen käytetyt osoitteet</translation>
+        <translation>Näytä Vaultcoinien vastaanottamiseen käytetyt osoitteet</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -426,7 +426,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Vaultcoin</source>
-        <translation>Muuta ThePandacoinin konfiguraatioasetuksia</translation>
+        <translation>Muuta Vaultcoinin konfiguraatioasetuksia</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -482,7 +482,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
     <message>
         <location line="+22"/>
         <source>&amp;About Vaultcoin</source>
-        <translation>&amp;Tietoa ThePandacoinista</translation>
+        <translation>&amp;Tietoa Vaultcoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1051,7 +1051,7 @@ Osoite: %4</translation>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Tililläsi tällä hetkellä olevien ThePandacoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Vaultcoinien määrä</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1290,7 +1290,7 @@ Osoite: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä ThePandacoineja</translation>
+        <translation>Lähetä Vaultcoineja</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1340,7 +1340,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Hyväksy ThePandacoinien lähettäminen</translation>
+        <translation>Hyväksy Vaultcoinien lähettäminen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1360,7 +1360,7 @@ Osoite: %4</translation>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0 ThePandacoinia.</translation>
+        <translation>Maksettavan summan tulee olla suurempi kuin 0 Vaultcoinia.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2137,7 +2137,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Lähetä ThePandacoineja</translation>
+        <translation>Lähetä Vaultcoineja</translation>
     </message>
 </context>
 <context>
@@ -2188,7 +2188,7 @@ Osoite: %4</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
         <source>Vaultcoin version</source>
-        <translation>ThePandacoinin versio</translation>
+        <translation>Vaultcoinin versio</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2809,7 +2809,7 @@ TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Vaultcoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version ThePandacoinista</translation>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Tarvitset uudemman version Vaultcoinista</translation>
     </message>
     <message>
         <location line="+93"/>
