@@ -1095,13 +1095,6 @@ unsigned char GetNfactor(int64 nTimestamp) {
     return min(max(N, minNfactor), maxNfactor);
 }
 
-int static generateMTRandom(unsigned int s, int range)
-{
-    boost::mt19937 gen(s);
-    boost::uniform_int<> dist(1, range);
-    return dist(gen);
-}
-
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
     int64 nSubsidy = 500 * COIN;
@@ -1115,7 +1108,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 }
 
 static const int64 nTargetTimespan = 4 * 60 * 60; // VaultCoin: every 4 hours
-static const int64 nTargetSpacing = 5 * 60; // VaultCoin: block released every 2.5 minutes
+static const int64 nTargetSpacing = 5 * 60; // VaultCoin: block released every 5 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 //
@@ -2871,14 +2864,14 @@ bool LoadBlockIndex()
     if (fTestNet)
     {
         /*
-        2014-02-12 14:35:30 block.nTime = 1392212666 
-        2014-02-12 14:35:30 block.nNonce = 849227 
-        2014-02-12 14:35:30 block.GetHash = b71759a6dc0501bb0b04f3655d86bcd1bd2f188e9f044410f941c8ad71cc8e1a
-        2014-02-12 14:35:30 CBlock(hash=b71759a6dc0501bb0b04f3655d86bcd1bd2f188e9f044410f941c8ad71cc8e1a, input=010000000000000000000000000000000000000000000000000000000000000000000000739dafef1634591384a7fd133bbde335722f6615d7631d694ac5c09a150e6329ba7afb52f0ff0f1e4bf50c00, PoW=00000259e0bdb157b08ea92249e58d17b4f6c08b2aa5b8e5189f15ba37fc936d, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=29630e159ac0c54a691d63d715662f7235e3bd3b13fda78413593416efaf9d73, nTime=1392212666, nBits=1e0ffff0, nNonce=849227, vtx=1)
-        2014-02-12 14:35:30   CTransaction(hash=29630e159ac0c54a691d63d715662f7235e3bd3b13fda78413593416efaf9d73, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-            CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 0002e7033054686973206973205468652050616e646120436f696e2e2030322f31342f313420576f6c6c7920616e64204d6f6c6c79)
-            CTxOut(error)
-          vMerkleTree: 29630e159ac0c54a691d63d715662f7235e3bd3b13fda78413593416efaf9d73
+        2014-03-04 16:00:12 block.nTime = 1393947459 
+	2014-03-04 16:00:12 block.nNonce = 759854 
+	2014-03-04 16:00:12 block.GetHash = fa75af3449000e5f1ddfcd8f8b872fe7c912da91ee61c50f44ae945dd1db03cd
+	2014-03-04 16:00:12 CBlock(hash=fa75af3449000e5f1ddfcd8f8b872fe7c912da91ee61c50f44ae945dd1db03cd, input=01000000000000000000000000000000000000000000000000000000000000000000000056073c223f3859ef94d0fe3aa89f6c6a7eeb173ee666fda0f1352e2fe506e83343f31553f0ff0f1e2e980b00, PoW=0000071cddc47a350612ece0f4b8fcb2dbb0fc693882d923d6b06a824087b8a3, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=33e806e52f2e35f1a0fd66e63e17eb7e6a6c9fa83afed094ef59383f223c0756, nTime=1393947459, nBits=1e0ffff0, nNonce=759854, vtx=1)
+	2014-03-04 16:00:12   CTransaction(hash=33e806e52f2e35f1a0fd66e63e17eb7e6a6c9fa83afed094ef59383f223c0756, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 0002e7034c4c30332f30332f32303134202d205661756c74636f696e20697320686572652e2e2e20506c65617365206c6574206d65207374617274207468697320616e6172636879202d2052334834426974)
+    CTxOut(error)
+  vMerkleTree: 33e806e52f2e35f1a0fd66e63e17eb7e6a6c9fa83afed094ef59383f223c0756 
         */
         
         pchMessageStart[0] = 'v';
@@ -2944,7 +2937,7 @@ bool InitBlockIndex() {
         assert(block.hashMerkleRoot == uint256("0x33e806e52f2e35f1a0fd66e63e17eb7e6a6c9fa83afed094ef59383f223c0756"));
         
         // If genesis block hash does not match, then generate new genesis hash.
-        if (true && block.GetHash() != hashGenesisBlock)
+        if (false && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
